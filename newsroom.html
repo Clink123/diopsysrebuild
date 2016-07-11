@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="products.html">Products</a></li>
+            <li><a href="technologies.html">Technologies</a></li>
+        </ul>
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="newsroom.html">Newsroom</a></li>
+        </ul>
+        <ul id="dropdown4" class="dropdown-content">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="order.html">Order Supplies</a></li>
+            <li><a href="service.html">Request Service</a></li>
+            <li><a href="moreinfo.html">More Info</a></li>
+        </ul>
+        <ul id="dropdown5" class="dropdown-content">
+            <li><a href="about.html">About</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <nav id="navbar">
+            <div class="nav-wrapper">
+                <a href="index.html"><img id="navimg" src="img/Diopsys-Logo-website-homepage.png" class="brand-logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i id="color" class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Products<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown3">News<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown5">About<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="newsroom.html">Newsroom</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="order.html">Supply Order Form</a></li>
+                    <li><a href="service.html">Service Request</a></li>
+                    <li><a href="moreinfo.html">Request More Information</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div id="blog"><iframe id="newsroom" src="http://diopsys.blogspot.com/"></iframe></div>
+    
+    
+    <footer class="page-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s6" id="follow">
+                    <h5 class="white-text" id="color">Follow</h5>
+                    <a href="https://twitter.com/diopsysinc"><img src="img/twitter.png"></a>
+                    <a href="http://www.linkedin.com/company/diopsys"><img src="img/linkedin.png"></a>
+                    <a href="http://www.youtube.com/user/diopsys"><img src="img/youtube.png"></a>
+                    <a href="http://www.pinterest.com/Diopsys/"><img src="img/pinterest.png"></a>
+                </div>
+                <div class="col s6">
+                    <h5 class="white-text">More Info</h5>
+                    <ul>
+                        <li><a href="http://www.diopsys.com/privacy-policy" id="color">Privacy Policy</a></li>
+                        <li><a href="http://www.diopsys.com/terms-of-use" id="color">Terms of Use</a></li>
+                        <li><a href="contact.html" id="color">Contact</a></li>
+                        <li><a href="http://www.diopsys.com/customerportal" id="color">Customer Portal</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container" id="color">
+                &copy; 2016 Diopsys, Inc.
+                <a class="right" href="http://www.diopsys.com/salesportal/" id="color">Employee Login</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".dropdown-button").dropdown();
+            $(".button-collapse").sideNav();
+        });
+    </script>
+</body>
+
+</html>
